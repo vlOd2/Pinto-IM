@@ -12,7 +12,6 @@
 A modernish IM client inspired by Skype 0.97
 
 # 📃 Note
-<img style="display: inline-block; " src="Logo\Loading.gif" width="16" height="16">
 Pinto! IM is not finished and for the moment development has been put on halt 
 <br>
 The code you see here is for PintoChat, a CLI based client that will share the same protocol and core features that is being actively developed on
