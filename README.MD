@@ -6,14 +6,13 @@
     <img src="https://img.shields.io/badge/.NET%20Framework-4.0-blue">
     <img src="https://img.shields.io/badge/Instant-Messaging-brightgreen">
     <img src="https://img.shields.io/badge/License-GPLv3-brightgreen">
-    <img src="https://img.shields.io/badge/Development-Halted-red">
 </p>
 
 # 💬 Pinto IM
 A modernish IM client inspired by Skype 0.97
 
 # 📃 Note
-<img src="Logo\Loading.gif" width="16" height="16">
+<img style="display: inline-block; " src="Logo\Loading.gif" width="16" height="16">
 Pinto! IM is not finished and for the moment development has been put on halt 
 <br>
 The code you see here is for PintoChat, a CLI based client that will share the same protocol and core features that is being actively developed on
