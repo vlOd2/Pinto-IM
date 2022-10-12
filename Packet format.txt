@@ -1,0 +1,22 @@
+Format:
+- PMSG|SIZE[\x??\x??]|ID[\x??\x??\x??\x??]|TrID[\x??\x??\x??\x??]|DATA
+
+Packets:
+- ProtocolAgreement (0) (BOTH):
+    # PROTOCOL_VERSION:INT
+    # PROTOCOL_HANDLER_NAME:STR
+    # PROTOCOL_HANDLER_VER:INT
+- Login (1) (BOTH):
+    # USERNAME:STR
+    # PASSWORD:STR
+    # HASHALGORITHM:INT
+    -------------------
+    # ERROR_MESSAGE:STR
+    # ERROR_CODE:INT
+- LoginChallenge (2) (BOTH):
+    # CONTENT:STR
+- Logout (3) (BOTH) (NO TRID):
+    NONE
+    ----
+    # REASON_TITLE:STR
+    # REASON_MESSAGE:STR
